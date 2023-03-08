@@ -49,6 +49,9 @@
 export default {
   name: "OptionsAccesories",
   methods: {
+    deleteClass() {
+      }
+    },
     showEarphones() {
       if(document.querySelector('#a_earphones').classList.contains('show')) {
         this.deleteClass();
