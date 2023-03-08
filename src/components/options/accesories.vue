@@ -56,36 +56,20 @@ export default {
       }
     },
     showEarphones() {
-      if(document.querySelector('#a_earphones').classList.contains('show')) {
-        this.deleteClass();
-      } else {
-        this.deleteClass();
-        document.querySelector('#a_earphones').classList.add('show');
-      }
+      this.deleteClass();
+      document.querySelector('#a_earphones').classList.add('show');
     },
     showEarring1() {
-      if(document.querySelector('#a_earring1').classList.contains('show')) {
-        this.deleteClass();
-      } else {
-        this.deleteClass();
-        document.querySelector('#a_earring1').classList.add('show');
-      }
+      this.deleteClass();
+      document.querySelector('#a_earring1').classList.add('show');
     },
     showEarring2() {
-      if(document.querySelector('#a_earring2').classList.contains('show')) {
-        this.deleteClass();
-      } else {
-        this.deleteClass();
-        document.querySelector('#a_earring2').classList.add('show');
-      }
+      this.deleteClass();
+      document.querySelector('#a_earring2').classList.add('show');
     },
     showEarring3() {
-      if(document.querySelector('#a_earring3').classList.contains('show')) {
-        this.deleteClass();
-      } else {
-        this.deleteClass();
-        document.querySelector('#a_earring3').classList.add('show');
-      }
+      this.deleteClass();
+      document.querySelector('#a_earring3').classList.add('show');
     }
   }
 }
