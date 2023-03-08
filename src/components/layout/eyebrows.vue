@@ -49,7 +49,7 @@ export default {
   name: "Eyebrows",
   data() {
     return {
-      list: []
+      list: ['#eb_none']
     }
   },
 
