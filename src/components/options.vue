@@ -10,8 +10,6 @@
       </g>
     </svg>
   </div>
-  ## <div @click="OptionsEyebrows = false; mainOpt = false">
-  ## </div>
   <div @click="OptionsEyes = true; mainOpt = false">
     <svg viewBox="0 0 180 180">
       <g id="e_surprised">
@@ -30,8 +28,6 @@
         <path fill="#FEFEFE" d="M59 36l-38 0 0 2c0,3 2,5 4,5l30 0c2,0 4,-2 4,-5l0 -2z"/>
       </g>
     </svg>
-  </div>
-  <div @click="facialHair = false; mainOpt = false">
   </div>
   <div @click="OptionGlasses = true; mainOpt = false">
     <svg viewBox="0 0 180 180">
