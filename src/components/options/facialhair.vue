@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "OptionsFacialHair",
+  name: "facialHair",
   methods: {
     deleteClass() {
       let c = document.getElementById('facialhair2').children, i;
