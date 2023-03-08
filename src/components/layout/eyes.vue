@@ -62,7 +62,7 @@ export default {
   name: "Eyes",
   data() {
     return {
-      list: ['#e_default', '#e_dizzy']
+      list: ['#e_default', '#e_dizzy', '#e_eyeroll']
     }
   },
 
