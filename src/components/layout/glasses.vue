@@ -19,7 +19,7 @@ export default {
   name: "Glasses",
   data() {
     return {
-      list: ['#g_glasses', '#dwi_shades', '#g_none']
+      list: ['#g_glasses', '#g_dwi_shades', '#g_none']
     }
   },
 
