@@ -59,7 +59,6 @@ export default {
       //       as we need to pay attention to the order of the elements to make sure nothing
       //       is hidden by another element.
       const avatarDiv = document.querySelector('#avatar');
-      addIfAvailable(avatarDiv.querySelector('#skinColor').querySelector('.show'));
       addIfAvailable(avatarDiv.querySelector('#tattoos').querySelector('.show'));
       addIfAvailable(avatarDiv.querySelector('#accesories').querySelector('.show'));
       addIfAvailable(avatarDiv.querySelector('#clothes').querySelector('.show'));
