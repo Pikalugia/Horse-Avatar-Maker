@@ -21,7 +21,7 @@ export default {
   name: "FacialHair",
   data() {
     return {
-      list: ['#f_magnum','#f_fancy','#f_none','#f_magestic','#f_light']
+      list: ['#f_none']
     }
   },
 
