@@ -55,7 +55,7 @@
   
   </div>
 
-  <div id="optionsFacialHair" v-if="facialHair === true">
+  <div id="optionsFacialHair" v-if="OptionsFacialHair === true">
     <OptionsFacialHair />
   </div>
 
