@@ -10,7 +10,7 @@
       </g>
     </svg>
   </div>
-  <div @click="OptionsEyebrows = true; mainOpt = false">
+  <div @click="OptionsEyebrows = false; mainOpt = false">
   </div>
   <div @click="OptionsEyes = true; mainOpt = false">
     <svg viewBox="0 0 180 180">
@@ -31,7 +31,7 @@
       </g>
     </svg>
   </div>
-  <div @click="facialHair = true; mainOpt = false">
+  <div @click="facialHair = false; mainOpt = false">
   </div>
   <div @click="OptionGlasses = true; mainOpt = false">
     <svg viewBox="0 0 180 180">
