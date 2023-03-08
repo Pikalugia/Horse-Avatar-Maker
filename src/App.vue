@@ -43,7 +43,7 @@ import Github from './components/layout/peekioIcon'
 export default {
   name: 'App',
   metaInfo: {
-    title: 'Avatar Maker - Create your own avatar online',
+    title: 'Horse Avatar Maker - Stallion Squad - Peekio',
     htmlAttrs: {
       lang: 'en'
     },
