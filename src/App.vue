@@ -111,7 +111,7 @@ export default {
 
   mounted() {
     window.addEventListener('load', () => {
-      this.randomAvatar();
+      this.resetAvatar();
     })
   },
 
