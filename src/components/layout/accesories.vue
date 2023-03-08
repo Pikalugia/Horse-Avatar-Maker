@@ -28,7 +28,7 @@ export default {
   name: "Accesories",
   data() {
     return {
-      list: ['#a_earphones','#a_earring1','#a_earring2','#a_earring3','#g_none']
+      list: ['#a_earphones','#a_earring1','#a_earring2','#a_earring3']
     }
   },
 
