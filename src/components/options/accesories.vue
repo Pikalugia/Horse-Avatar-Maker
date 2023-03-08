@@ -50,6 +50,9 @@ export default {
   name: "OptionsAccesories",
   methods: {
     deleteClass() {
+      let c = document.getElementById('accesories').children, i;
+      for (i = 0; i < c.length; i++) {
+        c[i].classList.remove('show');
       }
     },
     showEarphones() {
