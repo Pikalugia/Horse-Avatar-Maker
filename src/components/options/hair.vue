@@ -109,12 +109,12 @@ export default {
       }
     },
     
-    showLongHairDread() {
-      if(document.querySelector('#h_longhairdread').classList.contains('show')) {
+    showRoyaleCrown() {
+      if(document.querySelector('#h_royalecrown').classList.contains('show')) {
         this.deleteClass();
       } else {
         this.deleteClass();
-        document.querySelector('#h_longhairdread').classList.add('show');
+        document.querySelector('#h_royalecrown').classList.add('show');
       }
     },
     showNotTooLong() {
