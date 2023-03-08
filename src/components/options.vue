@@ -44,7 +44,7 @@
 	</g>
     </svg>
   </div>
-  <div @click="OptionsFacialHair = true; mainOpt = false">
+  <div @click="facialHair = true; mainOpt = false">
     <svg viewBox="0 0 100 100">
       <g id="cc_facialhair">
         <path d="M 22.512 40.520 C 20.869 41.404, 18.109 43.674, 16.378 45.564 C 14.647 47.454, 12.559 49, 11.738 49 C 10.917 49, 9.788 48.438, 9.230 47.750 C 8.672 47.063, 8.048 45.600, 7.844 44.500 C 7.640 43.400, 6.853 42.500, 6.095 42.500 C 5.338 42.500, 4.268 43.214, 3.717 44.087 C 3.167 44.959, 3.015 47.269, 3.381 49.219 C 3.747 51.169, 5.345 54.557, 6.933 56.749 C 8.587 59.032, 11.820 61.703, 14.501 63 C 17.075 64.247, 21.066 65.479, 23.371 65.738 C 25.956 66.030, 29.027 65.598, 31.391 64.610 C 35.134 63.046, 35.292 63.068, 38.245 65.552 C 39.907 66.951, 42.941 68.949, 44.986 69.993 C 47.031 71.036, 51.773 72.424, 55.523 73.077 C 59.417 73.756, 65.459 74.001, 69.613 73.650 C 73.613 73.312, 79.188 72.160, 82.002 71.091 C 84.816 70.022, 88.720 67.925, 90.678 66.432 C 92.636 64.939, 95.136 61.686, 96.234 59.205 C 97.701 55.888, 98.070 53.530, 97.628 50.306 C 97.298 47.893, 96.555 45.037, 95.978 43.960 C 95.402 42.882, 94.039 42, 92.949 42 C 91.188 42, 90.995 42.607, 91.200 47.507 C 91.387 51.986, 91.032 53.412, 89.298 55.146 C 87.898 56.547, 85.464 57.441, 82.200 57.755 C 79.468 58.017, 75.521 57.667, 73.428 56.976 C 71.309 56.277, 66.672 52.949, 62.961 49.463 C 59.296 46.021, 54.903 42.484, 53.199 41.603 C 51.494 40.721, 47.927 40, 45.272 40 C 42.466 40, 39.489 40.670, 38.161 41.600 C 36.064 43.069, 35.729 43.065, 34.063 41.557 C 33.065 40.654, 30.730 39.689, 28.874 39.414 C 26.803 39.106, 24.347 39.533, 22.512 40.520" stroke="none" fill="#000000" fill-rule="evenodd"/>
@@ -55,8 +55,8 @@
   
   </div>
 
-  <div id="optionsFacialHair" v-if="OptionsFacialHair === true">
-    <OptionsFacialHair />
+  <div id="facialHair" v-if="facialHair === true">
+    <facialHair />
   </div>
 
   <div id="optionsGlasses" v-if="OptionGlasses === true">
@@ -102,7 +102,7 @@
 
 
 <script>
-import  OptionsFacialHair  from './options/facialhair'
+import  facialHair  from './options/facialhair'
 import  OptionsGlasses     from './options/glasses'
 import  OptionsMouths      from './options/mouths'
 import  OptionsClothes     from './options/clothes'
@@ -131,7 +131,7 @@ function initialState() {
 export default {
   name: "Options",
   components: {
-    OptionsFacialHair,
+    facialHair,
     OptionsGlasses,
     OptionsMouths,
     OptionsClothes,
