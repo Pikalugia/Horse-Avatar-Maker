@@ -85,7 +85,7 @@ export default {
   methods: {
     resetAvatar() {
       this.$root.$refs.Accesories.picker('#a_earphones');
-      this.$root.$refs.Clothes.picker('#c_none');
+      this.$root.$refs.Clothes.picker('#c_blazer');
       this.$root.$refs.Eyebrows.picker('#eb_none');
       this.$root.$refs.Eyes.picker('#e_default');
       this.$root.$refs.FacialHair.picker('#f_none');
