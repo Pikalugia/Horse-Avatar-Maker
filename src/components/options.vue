@@ -17,12 +17,9 @@
     </svg>
   </div>
   <div @click="OptionsEyes = true; mainOpt = false">
-    <svg viewBox="0 0 180 180">
+    <svg viewBox="0 0 512 512">
       <g id="e_surprised">
-        <circle fill="#e5e5e5" cx="50" cy="100" r="22"/>
-        <circle fill="#4D4D4D" stroke="#5F4A37" stroke-width="0.9" cx="50" cy="100" r="10"/>
-        <circle fill="#e5e5e5" cx="125" cy="100" r="22"/>
-        <circle fill="#4D4D4D" cx="125" cy="100" r="10"/>
+        <path d="M6,2C4,2,2,3,0,6c2,3,4,4,6,4s4-1,6-4C10,3,8,2,6,2z M6,8.5C4.621582,8.5,3.5,7.3789063,3.5,6 S4.621582,3.5,6,3.5S8.5,4.6210938,8.5,6S7.378418,8.5,6,8.5z" fill="#1D1D1B"></path>
       </g>
     </svg>
   </div>
