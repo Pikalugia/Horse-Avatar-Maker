@@ -44,9 +44,6 @@
 	</g>
     </svg>
   </div>
-  <div @click="OptionTattoos = true; mainOpt = false">
-  </div>
-  </div>
 
   <div id="optionsFacialHair" v-if="facialHair === true">
     <OptionsFacialHair />
