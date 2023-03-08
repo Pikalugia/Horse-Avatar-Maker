@@ -38,7 +38,7 @@ import OptionsColor from './components/optionsColor'
 import Footer from './components/footer'
 
 // Github icon component
-import Github from './components/layout/githubIcon'
+import Github from './components/layout/peekioIcon'
 
 export default {
   name: 'App',
