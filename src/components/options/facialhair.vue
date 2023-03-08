@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "optionsFacialHair",
+  name: "OptionsFacialHair",
   methods: {
     deleteClass() {
       let c = document.getElementById('facialhair2').children, i;
@@ -31,30 +31,6 @@ export default {
       } else {
         this.deleteClass();
         document.querySelector('#f_mustache').classList.add('show');
-      }
-    },
-    showMagnum() {
-      if(document.querySelector('#f_magnum').classList.contains('show')) {
-        this.deleteClass();
-      } else {
-        this.deleteClass();
-        document.querySelector('#f_magnum').classList.add('show');
-      }
-    },
-    showFancy() {
-      if(document.querySelector('#f_fancy').classList.contains('show')) {
-        this.deleteClass();
-      } else {
-        this.deleteClass();
-        document.querySelector('#f_fancy').classList.add('show');
-      }
-    },
-    showLight() {
-      if(document.querySelector('#f_light').classList.contains('show')) {
-        this.deleteClass();
-      } else {
-        this.deleteClass();
-        document.querySelector('#f_light').classList.add('show');
       }
     }
   }
