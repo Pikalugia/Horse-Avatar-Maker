@@ -58,11 +58,11 @@ export default {
       { vmid: 'og:locale', property: 'og:locale', content: 'en_US' },
       { vmid: 'og:site_name', property: 'og:site_name', content: 'Avatar Maker' },
       { vmid: 'og:type', property: 'og:type', content: 'website' },
-      { vmid: 'og:image', property: 'og:image', content: 'https://github.com/favrora/Avatar-Maker/blob/master/src/assets/img/preview.jpg' },
+      { vmid: 'og:image', property: 'og:image', content: '' },
 
       // Twitter
       { vmid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
-      { vmid: 'twitter:creator', property: 'twitter:creator', content: 'favrora_com' },
+      { vmid: 'twitter:creator', property: 'twitter:creator', content: 'peekiodev' },
     ],
   },
 
