@@ -10,8 +10,8 @@
       </g>
     </svg>
   </div>
-  <div @click="OptionsEyebrows = false; mainOpt = false">
-  </div>
+  ## <div @click="OptionsEyebrows = false; mainOpt = false">
+  ## </div>
   <div @click="OptionsEyes = true; mainOpt = false">
     <svg viewBox="0 0 180 180">
       <g id="e_surprised">
