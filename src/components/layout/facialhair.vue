@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "FacialHair",
+  name: "optionsFacialHair",
   data() {
     return {
       list: ['#f_mustache','#f_none']
