@@ -71,7 +71,7 @@ export default {
     showEarring3() {
       this.deleteClass();
       document.querySelector('#a_earring3').classList.add('show');
-    }
+    },
     showGolden() {
       this.deleteClass();
       document.querySelector('#a_golden').classList.add('show');
