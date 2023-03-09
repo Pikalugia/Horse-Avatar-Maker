@@ -59,14 +59,6 @@ export default {
     showBlueTee() {
       this.deleteClass();
       document.querySelector('#c_bluetee').classList.add('show');
-    },
-    showOverall() {
-      this.deleteClass();
-      document.querySelector('#c_overall').classList.add('show');
-    },
-    showHoodie() {
-      this.deleteClass();
-      document.querySelector('#c_hoodie').classList.add('show');
     }
   }
 }
